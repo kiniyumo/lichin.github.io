@@ -1,0 +1,88 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+header{
+    background-color: #231c1a;
+    height:80px;
+    width:100%;
+    
+
+}
+header nav{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
+}
+h1{
+    color:white;
+    position: absolute;
+    left:120px;
+    top:0;
+    line-height: 80px;
+}
+header a{
+    color:white;
+    text-decoration:none;
+
+}
+header a:hover{
+    text-decoration: underline;
+    
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+.news{
+    background-color:rgb(88, 76, 60);
+    color:white;
+    height:60vh;
+    background-image:url(images/firstimage.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 40%;
+    
+    /* height: 300px; */
+    /* position: absolute;
+    left:120px;
+    top:30px;
+    line-height: 230px;
+    width: 25%; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.news h2{
+    font-size:43px;
+    margin:0;
+    position: relative;
+    top:22px;
+}
+.news p{
+    color:rgb(63, 49, 49);
+    font-size:18px;
+    margin:10px 0;
+}
+.news a{
+    border:1px solid #1f1a1a;
+    padding:13px 20px;
+    
+    border-radius:5px;
+    text-decoration: none;
+    color:black;
+    position: relative;
+    top:40px;
+}
+.news h3{
+    font-size:30px;
+    color:black;
+    margin:0;
+}
+.news a:hover{
+    text-decoration: underline;
+}
